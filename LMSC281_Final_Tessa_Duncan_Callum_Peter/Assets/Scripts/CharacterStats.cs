@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour {
 
-	public int strength;
-	public int intelligence;
-	public int agility;
-	public int magic;
+	[SerializeField]
+	public int strength = 4;
+	public int intelligence = 3;
+	public int agility = 2;
+	public int magic = 1;
 }
