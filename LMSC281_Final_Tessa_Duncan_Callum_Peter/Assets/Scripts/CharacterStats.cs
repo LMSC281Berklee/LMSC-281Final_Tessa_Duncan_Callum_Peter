@@ -9,4 +9,5 @@ public class CharacterStats : MonoBehaviour {
 	public int intelligence = 3;
 	public int agility = 2;
 	public int magic = 1;
+	public int stuff = 10;
 }
