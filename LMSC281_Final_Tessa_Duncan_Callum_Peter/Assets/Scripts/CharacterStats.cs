@@ -10,7 +10,7 @@ public class CharacterStats : MonoBehaviour {
 	{
 		m_Classes = new List<Class> ();
 
-		m_Classes.Add(new Class() {ClassName = "Warrior", Strength = 4, Intelligence = 2, Agility = 3, Magic = 1 };
+		m_Classes.Add(new Class() {ClassName = "Warrior", Strength = 4, Intelligence = 2, Agility = 3, Magic = 1 });
 	}
 }
 		
