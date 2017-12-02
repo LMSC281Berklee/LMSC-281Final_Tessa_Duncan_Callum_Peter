@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour {
 
-	[SerializeField]
-	public int strength = 4;
-	public int intelligence = 3;
-	public int agility = 2;
-	public int magic = 1;
-	public int stuff = 10;
+	private List<Class> m_Classes;
+
+	void start()
+	{
+		m_Classes = new List<Class> ();
+
+		m_Classes.Add(new Class() {ClassName = "Warrior", Strength = 4, Intelligence = 2, Agility = 3, Magic = 1 };
+	}
 }
