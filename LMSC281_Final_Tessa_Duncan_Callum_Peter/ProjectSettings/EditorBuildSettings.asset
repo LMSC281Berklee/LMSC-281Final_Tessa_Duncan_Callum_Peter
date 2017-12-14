@@ -69,8 +69,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 20.unity
     guid: 9bdae2e165f8b4d4dbda75b49a334d93
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Class Selection.unity
     guid: f51a094e00ffc4bb7a8eebe0339000c7
   - enabled: 1
+=======
+>>>>>>> a252a1a6354907d961c917e49f69af895c109a34
     path: Assets/Scenes/Death Scene.unity
     guid: e7ec44480e4f142dab1c4c052a21e1e1
