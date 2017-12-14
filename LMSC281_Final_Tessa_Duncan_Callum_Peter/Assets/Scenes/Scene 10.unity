@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You cast a calm spell
+  m_Text: 'You turn murphy into a pickle '
 --- !u!222 &11840083
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -433,13 +433,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 521366104}
+      - m_Target: {fileID: 521366103}
         m_MethodName: DetermineOutcome
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 50
+          m_IntArgument: 25
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -555,7 +555,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521366103}
+      - m_Target: {fileID: 0}
         m_MethodName: LoadScene
         m_Mode: 3
         m_Arguments:
@@ -688,13 +688,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 521366104}
+      - m_Target: {fileID: 521366103}
         m_MethodName: DetermineOutcome
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 25
+          m_IntArgument: 100
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -745,7 +745,6 @@ GameObject:
   - component: {fileID: 521366101}
   - component: {fileID: 521366100}
   - component: {fileID: 521366103}
-  - component: {fileID: 521366104}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -799,17 +798,6 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &521366103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 521366099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1de61d3df7e5a403d9147c8811fe5b7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &521366104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1075,7 +1063,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Set a bear trap and lure it into the trap
+  m_Text: You steal his magic ring
 --- !u!222 &689475816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1169,7 +1157,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 521366104}
+      - m_Target: {fileID: 521366103}
         m_MethodName: DetermineOutcome
         m_Mode: 3
         m_Arguments:
@@ -1335,7 +1323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sneak past the bear
+  m_Text: Decide this is a bad idea and leave
 --- !u!222 &1499010001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1409,7 +1397,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The bear tuens out to be friendly and you give him a hug.
+  m_Text: The sea of Skeletones part and you make you strut your way through.
 --- !u!222 &1507516829
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1492,24 +1480,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 239064740}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 521366104}
+      - m_Target: {fileID: 521366103}
         m_MethodName: DetermineOutcome
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
+          m_IntArgument: 50
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1758,7 +1735,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You come across a sleeping bear at the entrance of Murphy\u2019s crypt"
+  m_Text: "It\u2019s the final showdown. You face off against Murphy the Wizard King"
 --- !u!222 &2013265196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1832,7 +1809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Wrestle the bear '
+  m_Text: You challenge him to a sword duel
 --- !u!222 &2147350567
 CanvasRenderer:
   m_ObjectHideFlags: 0
