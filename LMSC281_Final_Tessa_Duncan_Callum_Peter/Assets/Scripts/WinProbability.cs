@@ -6,13 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class WinProbability : MonoBehaviour
 {
-	float chance = 0.5f;
-	public GameObject Here;
-	public Text outputText;
+	//public int chance = 100;
 
-	public void DetermineOutcome()
+	public void DetermineOutcome(int chance)
 	{
-		float random = Random.Range(0.0f, 1.0f);
+		int random = Random.Range(1, 100);
 
 		if (random < chance)
 		{
@@ -27,12 +25,11 @@ public class WinProbability : MonoBehaviour
 	public void Success()
 	{
 		Debug.Log ("You have passed");
-		outputText.text = "The sea of Skeletones part and you make you strut your way through.";
 	}
 
 	public void Death()
 	{
-		Debug.Log ("You have died");
+		Debug.Log ("You died lol");
 		SceneManager.LoadScene("Death Scene");
 	}
 }
