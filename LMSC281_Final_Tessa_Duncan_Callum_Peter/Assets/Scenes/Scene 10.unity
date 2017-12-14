@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ask them to move out of the way
+  m_Text: You cast a calm spell
 --- !u!222 &11840083
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 75
+          m_IntArgument: 25
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fight them head on
+  m_Text: Set a bear trap and lure it into the trap
 --- !u!222 &689475816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1175,7 +1175,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
+          m_IntArgument: 75
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1223,6 +1223,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1064220639}
+  - component: {fileID: 1064220638}
   - component: {fileID: 1064220637}
   m_Layer: 0
   m_Name: Player
@@ -1243,6 +1244,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseValue: 0
+--- !u!114 &1064220638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1064220636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82be1f96b36d44ef68b501df8cc81803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1064220639
 Transform:
   m_ObjectHideFlags: 0
@@ -1323,7 +1335,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Blast them out of the way with magic
+  m_Text: Sneak past the bear
 --- !u!222 &1499010001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1397,7 +1409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The sea of Skeletones part and you make you strut your way through.
+  m_Text: The bear tuens out to be friendly and you give him a hug.
 --- !u!222 &1507516829
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1497,7 +1509,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 25
+          m_IntArgument: 100
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -1746,7 +1758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You come across an undead skeleton acapella group called The Skeletones.
+  m_Text: "You come across a sleeping bear at the entrance of Murphy\u2019s crypt"
 --- !u!222 &2013265196
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1820,7 +1832,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do a somersault over them
+  m_Text: 'Wrestle the bear '
 --- !u!222 &2147350567
 CanvasRenderer:
   m_ObjectHideFlags: 0
