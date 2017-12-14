@@ -467,7 +467,7 @@ MonoBehaviour:
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_ForceModuleActive: 1
 --- !u!114 &448982100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1441,7 +1441,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1293565615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3a463c1771a241b08cc68ec3149d5a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b222f0217e4674c21972ef7fbb6caa12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1404291716
@@ -1611,7 +1611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1496041871
 RectTransform:
   m_ObjectHideFlags: 0

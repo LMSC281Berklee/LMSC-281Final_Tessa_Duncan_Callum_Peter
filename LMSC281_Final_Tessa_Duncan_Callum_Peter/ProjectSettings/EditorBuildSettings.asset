@@ -9,5 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 42a821bad2ea61c4bb524433605990f5
   - enabled: 1
-    path: Assets/Scenes/Scene 1.unity
+    path: Assets/Scenes/Class Selection.unity
+    guid: 2b3effa678ac24735bddcb4928a4dd5b
+  - enabled: 1
+    path: Assets/Scenes/Warrior Scenes/Scene 1.unity
     guid: 51a2b29a94e0a4c1e8a48611b9d0ec63
+  - enabled: 1
+    path: Assets/Scene 2.unity
+    guid: 42e7fd027f9ae48418b6ed2954ddf719
+  - enabled: 1
+    path: Assets/Scenes/Warrior Scenes/Scene 3.unity
+    guid: a1ebdf5da49d94e13aaef08351613f63
+  - enabled: 1
+    path: Assets/Scenes/Warrior Scenes/Scene 4.unity
+    guid: 651994bc2c2634d1995ab30f8429af97
+  - enabled: 1
+    path: Assets/Scenes/Warrior Scenes/Scene 5.unity
+    guid: 63c147643cbbc454f96ad4020e9cc4ed
