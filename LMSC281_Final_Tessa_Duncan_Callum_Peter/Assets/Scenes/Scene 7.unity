@@ -1409,7 +1409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The sea of Skeletones part and you make you strut your way through.
+  m_Text: M'aiq wishes you well.
 --- !u!222 &1507516829
 CanvasRenderer:
   m_ObjectHideFlags: 0
