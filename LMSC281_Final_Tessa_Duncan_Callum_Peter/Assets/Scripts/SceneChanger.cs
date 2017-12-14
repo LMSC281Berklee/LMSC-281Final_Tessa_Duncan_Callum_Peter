@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneChanger : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+public class SceneChanger : MonoBehaviour
+{
+	public void LoadScene (int SceneNum)
+	{
+		Application.LoadLevel(SceneNum);
 	}
 }
